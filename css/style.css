@@ -1,0 +1,105 @@
+*{
+   margin: 0;
+}
+
+body{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   font-size: medium;
+   background-color: black;
+}
+
+.diseno{
+   margin-left: 25%;
+   margin-right: 25%;
+   font-family: Arial, Helvetica, sans-serif;
+   border: white solid 1px;
+}
+
+h1{
+   font-size: 1.7rem;
+   margin: 0 0 0 2rem;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #203572;
+   color: white;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.foto{
+   left: 0;
+   border-radius: 1rem;
+   height: 8rem;
+   border: 2px black solid ;
+}
+
+section{
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   background-color: wheat;
+}
+
+.bloque{
+   padding-top: 1rem;
+   margin: 0 2rem 0 2rem ;
+}
+
+div aside{
+   display: block;
+   background-color: #203572;
+   color: white;
+   padding-bottom: 2rem;
+}
+
+.articulos{
+   display: block;
+   text-align: justify;
+   border-width: 2px 0 0 2px; /* Grosor del borde */
+   border-color: black;
+   border-style: solid; /* Estilo del borde */
+}
+
+.articulos article{
+   margin: 1.5em 2em 1em 2em;
+}
+
+p{
+   font-size: 90%;
+}
+h2,h3{
+   text-decoration: none;
+   font-size: 90% ;
+   margin-top: 5%;
+   margin-bottom: 0.3%;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ul{
+   font-size: 90% ;
+   margin-top: 5%;
+   margin-bottom: 0.3%;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+
+p:hover{
+   color: green;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+li:hover{
+   color: green;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+a:hover{
+   color: green;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
